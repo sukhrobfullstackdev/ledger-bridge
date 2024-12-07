@@ -1,0 +1,40 @@
+{
+  "name": "@fortmatic/ledger-bridge-avalanche",
+  "version": "1.0.0",
+  "description": "ledger bridge avalanche",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:prod": "export NODE_ENV=production && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortmatic/ledger-bridge.git"
+  },
+  "author": "Fortmatic <team@fortmatic.com> (https://fortmatic.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fortmatic/ledger-bridge/issues"
+  },
+  "homepage": "https://github.com/fortmatic/ledger-bridge#readme",
+  "devDependencies": {
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "avalanche": "^3.16.0",
+    "crypto-browserify": "^3.12.0",
+    "elliptic": "^6.5.2",
+    "process": "^0.11.10",
+    "rlp": "^2.2.5",
+    "sha3": "^2.1.2",
+    "stream-browserify": "^3.0.0"
+  },
+  "packageManager": "yarn@1.22.19",
+  "engines": {
+    "node": "^16 || ^18"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@fortmatic/ledger-bridge-conflux",
+  "version": "0.1.4",
+  "description": "ledger bridge conflux",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:prod": "export NODE_ENV=production && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortmatic/ledger-bridge.git"
+  },
+  "author": "Fortmatic <team@fortmatic.com> (https://fortmatic.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fortmatic/ledger-bridge/issues"
+  },
+  "homepage": "https://github.com/fortmatic/ledger-bridge#readme",
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "4.4.4",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "js-conflux-sdk": "^2.0.0-beta.10"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@fortmatic/ledger-bridge-zilliqa",
+  "version": "1.1.0",
+  "description": "ledger bridge zilliqa",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:prod": "export NODE_ENV=production && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortmatic/ledger-bridge.git"
+  },
+  "author": "Fortmatic <team@fortmatic.com> (https://fortmatic.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fortmatic/ledger-bridge/issues"
+  },
+  "homepage": "https://github.com/fortmatic/ledger-bridge#readme",
+  "devDependencies": {
+    "crypto-browserify": "^3.12.0",
+    "stream-browserify": "^3.0.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "@zilliqa-js/zilliqa": "^3.5.0",
+    "process": "^0.11.10",
+    "tslib": "^2.3.0"
+  },
+  "engines": {
+    "node": "^18"
+  },
+  "packageManager": "yarn@1.22.19"
+}

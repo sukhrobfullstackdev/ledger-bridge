@@ -1,0 +1,35 @@
+{
+  "name": "@fortmatic/ledger-bridge-hedera",
+  "version": "1.1.0",
+  "description": "ledger bridge hedera",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack",
+    "build:prod": "cross-env NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortmatic/ledger-bridge.git"
+  },
+  "author": "Fortmatic <team@fortmatic.com> (https://fortmatic.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fortmatic/ledger-bridge/issues"
+  },
+  "homepage": "https://github.com/fortmatic/ledger-bridge#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "ts-loader": "^8.2.0",
+    "typescript": "^4.6.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@hashgraph/sdk": "^2.31.0"
+  },
+  "engines": {
+    "node": "^18"
+  },
+  "packageManager": "yarn@1.22.19"
+}

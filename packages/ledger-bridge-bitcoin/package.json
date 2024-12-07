@@ -1,0 +1,36 @@
+{
+  "name": "@fortmatic/ledger-bridge-bitcoin",
+  "version": "1.0.0",
+  "description": "ledger bridge bitcoin",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:prod": "export NODE_ENV=production && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortmatic/ledger-bridge.git"
+  },
+  "author": "Fortmatic <team@fortmatic.com> (https://fortmatic.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fortmatic/ledger-bridge/issues"
+  },
+  "homepage": "https://github.com/fortmatic/ledger-bridge#readme",
+  "devDependencies": {
+    "patch-package": "^7.0.0",
+    "stream-browserify": "^3.0.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "bitcoinjs-lib": "^5.2.0"
+  },
+  "engines": {
+    "node": "^18"
+  },
+  "packageManager": "yarn@1.22.19"
+}

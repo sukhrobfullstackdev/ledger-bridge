@@ -1,0 +1,42 @@
+{
+  "name": "@fortmatic/ledger-bridge-polkadot",
+  "version": "1.2.0",
+  "description": "ledger bridge polkadot",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:prod": "export NODE_ENV=production && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortmatic/ledger-bridge.git"
+  },
+  "author": "Fortmatic <team@fortmatic.com> (https://fortmatic.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fortmatic/ledger-bridge/issues"
+  },
+  "homepage": "https://github.com/fortmatic/ledger-bridge#readme",
+  "devDependencies": {
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "@polkadot/api": "^10.10.1",
+    "@polkadot/api-augment": "^10.10.1",
+    "@polkadot/keyring": "^12.3.2",
+    "@polkadot/types": "^10.10.1",
+    "@polkadot/util": "^12.5.1",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5"
+  },
+  "engines": {
+    "node": "^16 || ^18"
+  },
+  "packageManager": "yarn@1.22.19"
+}
